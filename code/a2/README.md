@@ -23,7 +23,7 @@ python detect.py --data data/coco.yaml --weights checkpoints/yolov4.weights --im
 
 ## Results
 
-[1](https://github.com/eracoding/rtml/tree/main/code/a2/results/result_000000116031.jpg)
-[2](https://github.com/eracoding/rtml/tree/main/code/a2/results/result_000000233141.jpg)
-[3](https://github.com/eracoding/rtml/tree/main/code/a2/results/result_000000523923.jpg)
-[4](https://github.com/eracoding/rtml/tree/main/code/a2/results/test.jpg)
+[](https://github.com/eracoding/rtml/tree/main/code/a2/results/result_000000116031.jpg)
+[](https://github.com/eracoding/rtml/tree/main/code/a2/results/result_000000233141.jpg)
+[](https://github.com/eracoding/rtml/tree/main/code/a2/results/result_000000523923.jpg)
+[](https://github.com/eracoding/rtml/tree/main/code/a2/results/test.jpg)
