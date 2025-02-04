@@ -1,0 +1,78 @@
+jupyter-st125457@puffer:~/rtml/a2_yolov4$ python detect.py --data data/coco.yaml --weights checkpoints/yolov4.weights --img cocoimages/000000521540.jpg 
+Loading YOLOv4 Model...
+Detected 2 objects!
+Class: spoon (44), Confidence: 0.8676, Box: [405.9, -22.0, 591.8, 220.0]
+Class: banana (46), Confidence: 0.9979, Box: [132.3, -53.0, 520.3, 520.9]
+
+Detection result saved to: /home/jupyter-st125457/rtml/a2_yolov4/results/result_000000521540.jpg
+
+jupyter-st125457@puffer:~/rtml/a2_yolov4$ python run_yolov4.py 
+Loading network.....
+Network successfully loaded
+<class 'numpy.ndarray'> (478, 640, 3)
+[ WARN:0@1.424] global loadsave.cpp:848 imwrite_ Unsupported depth image for selected encoder is fallbacked to CV_8U.
+(608, 608, 3)
+(608, 608, 3)
+tensor([[608., 608., 608., 608.]])
+000000581781.jpg     predicted in  0.438 seconds
+Objects Detected:    banana banana banana banana banana banana banana
+----------------------------------------------------------
+Debug: c1=(285, 0), c2=(411, 114), type(c1)=<class 'tuple'>, type(c2)=<class 'tuple'>
+Debug: img.shape=(608, 608, 3), type(img)=<class 'numpy.ndarray'>
+Debug: c1=(127, 0), c2=(179, 108), type(c1)=<class 'tuple'>, type(c2)=<class 'tuple'>
+Debug: img.shape=(608, 608, 3), type(img)=<class 'numpy.ndarray'>
+Debug: c1=(135, 53), c2=(264, 179), type(c1)=<class 'tuple'>, type(c2)=<class 'tuple'>
+Debug: img.shape=(608, 608, 3), type(img)=<class 'numpy.ndarray'>
+Debug: c1=(343, 434), c2=(511, 608), type(c1)=<class 'tuple'>, type(c2)=<class 'tuple'>
+Debug: img.shape=(608, 608, 3), type(img)=<class 'numpy.ndarray'>
+Debug: c1=(318, 250), c2=(549, 346), type(c1)=<class 'tuple'>, type(c2)=<class 'tuple'>
+Debug: img.shape=(608, 608, 3), type(img)=<class 'numpy.ndarray'>
+Debug: c1=(188, 211), c2=(483, 334), type(c1)=<class 'tuple'>, type(c2)=<class 'tuple'>
+Debug: img.shape=(608, 608, 3), type(img)=<class 'numpy.ndarray'>
+Debug: c1=(141, 450), c2=(318, 608), type(c1)=<class 'tuple'>, type(c2)=<class 'tuple'>
+Debug: img.shape=(608, 608, 3), type(img)=<class 'numpy.ndarray'>
+SUMMARY
+----------------------------------------------------------
+Task                     : Time Taken (in seconds)
+
+Reading addresses        : 0.000
+Loading batch            : 0.032
+Detection (2 images)     : 0.537
+Output Processing        : 0.000
+Drawing Boxes            : 0.006
+Average time_per_img     : 0.287
+
+jupyter-st125457@puffer:~/rtml/a2_yolov4$ python detect.py --img data/coco/train2017/000000116031.jpg --weights checkpoints/yolov4.weights 
+Loading YOLOv4 Model...
+Loading weights from checkpoints/yolov4.weights
+Loading image: /home/jupyter-st125457/rtml/a2_yolov4/data/coco/train2017/000000116031.jpg
+Found 2 objects!
+Class: motorcycle (3), Confidence: 0.9774, Box: [-1.2, 5.8, 616.9, 598.8]
+Class: cat (15), Confidence: 0.9938, Box: [280.3, 193.2, 540.8, 475.3]
+
+Detection result saved to: /home/jupyter-st125457/rtml/a2_yolov4/results/result_000000116031.jpg
+jupyter-st125457@puffer:~/rtml/a2_yolov4$ python detect.py --img data/coco/train2017/000000233141.jpg --weights checkpoints/yolov4.weights 
+Loading YOLOv4 Model...
+Loading weights from checkpoints/yolov4.weights
+Loading image: /home/jupyter-st125457/rtml/a2_yolov4/data/coco/train2017/000000233141.jpg
+Found 2 objects!
+Class: person (0), Confidence: 0.9992, Box: [313.3, 10.4, 443.1, 218.8]
+Class: bench (13), Confidence: 0.9974, Box: [341.3, 20.7, 478.1, 197.9]
+
+Detection result saved to: /home/jupyter-st125457/rtml/a2_yolov4/results/result_000000233141.jpg
+jupyter-st125457@puffer:~/rtml/a2_yolov4$ python detect.py --img data/coco/train2017/000000523923.jpg --weights checkpoints/yolov4.weights 
+Loading YOLOv4 Model...
+Loading weights from checkpoints/yolov4.weights
+Loading image: /home/jupyter-st125457/rtml/a2_yolov4/data/coco/train2017/000000523923.jpg
+Found 9 objects!
+Class: person (0), Confidence: 0.9999, Box: [218.9, 97.3, 433.2, 489.6]
+Class: person (0), Confidence: 0.9996, Box: [262.3, 460.5, 339.1, 618.2]
+Class: person (0), Confidence: 0.9995, Box: [278.2, 312.2, 345.0, 507.8]
+Class: person (0), Confidence: 0.9996, Box: [313.8, 501.8, 351.9, 637.8]
+Class: person (0), Confidence: 0.9992, Box: [267.4, 395.8, 330.4, 558.8]
+Class: person (0), Confidence: 0.9998, Box: [327.7, 486.5, 368.2, 620.6]
+Class: person (0), Confidence: 0.9995, Box: [299.2, 364.6, 362.2, 535.1]
+Class: person (0), Confidence: 0.9897, Box: [292.9, 433.4, 370.1, 595.6]
+Class: skis (30), Confidence: 0.9985, Box: [459.8, 266.7, 579.4, 340.6]
+
+Detection result saved to: /home/jupyter-st125457/rtml/a2_yolov4/results/result_000000523923.jpg

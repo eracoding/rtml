@@ -1,0 +1,8 @@
+pycocotools==2.0.8
+torch==2.6.0
+torchdata==0.7.1
+torchtext==0.16.2
+torchvision==0.21.0
+numpy==1.26.4
+opencv-python==4.11.0.86
+opencv-python-headless==4.11.0.86
