@@ -16,6 +16,7 @@ Literature review and code implementations from scratch of Recent Papers in AI/M
 |---|-------------------|
 |1. |<a href="https://github.com/eracoding/rtml/tree/main/code/a1">Assignment 1: Pytorch_AlexNet_GoogleNet</a>|
 |2. |<a href="https://github.com/eracoding/rtml/tree/main/code/a2">Assignment 2: Yolov3-v4</a>|
+|3. |<a href="https://github.com/eracoding/rtml/tree/main/code/a3">Assignment 3: Vision Transformer</a>|
 
 # Credits
 The course and assignments are credited by professor Chaklam [repo](https://github.com/chaklam-silpasuwanchai/Python-for-Deep-Learning)
