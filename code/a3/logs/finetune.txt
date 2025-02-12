@@ -1,0 +1,238 @@
+Loading checkpoint: Ep.7.pth
+Using 4 GPU(s): ['NVIDIA GeForce RTX 2080 Ti', 'NVIDIA GeForce RTX 2080 Ti', 'NVIDIA GeForce RTX 2080 Ti', 'NVIDIA GeForce RTX 2080 Ti']
+
+🔍 Starting Fine-Tuning with {'lr': 5e-06, 'optimizer': 'Adam', 'batch_size': 256}
+
+
+🚀 Fine-Tuning EPOCH 1/100 | LR: 5e-06, Optimizer: Adam
+Training: 100%|██████████| 53/53 [00:58<00:00,  1.10s/it]
+Train Loss: 0.8558, Train Accuracy: 84.6724%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.14s/it]
+Valid Loss: 0.7530, Valid Accuracy: 86.0000%
+✅ New Best Model Saved at saved/ViT_Finetune/best_finetuned_Adam_lr5e-06_epoch_1.pth (Accuracy: 86.0000%)
+
+🚀 Fine-Tuning EPOCH 2/100 | LR: 5e-06, Optimizer: Adam
+Training: 100%|██████████| 53/53 [01:00<00:00,  1.14s/it]
+Train Loss: 0.6476, Train Accuracy: 89.2899%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.16s/it]
+Valid Loss: 0.6036, Valid Accuracy: 88.8000%
+✅ New Best Model Saved at saved/ViT_Finetune/best_finetuned_Adam_lr5e-06_epoch_2.pth (Accuracy: 88.8000%)
+
+🚀 Fine-Tuning EPOCH 3/100 | LR: 5e-06, Optimizer: Adam
+Training: 100%|██████████| 53/53 [01:00<00:00,  1.13s/it]
+Train Loss: 0.5139, Train Accuracy: 91.7877%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.11s/it]
+Valid Loss: 0.5021, Valid Accuracy: 91.6000%
+✅ New Best Model Saved at saved/ViT_Finetune/best_finetuned_Adam_lr5e-06_epoch_3.pth (Accuracy: 91.6000%)
+
+🚀 Fine-Tuning EPOCH 4/100 | LR: 5e-06, Optimizer: Adam
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.12s/it]
+Train Loss: 0.4144, Train Accuracy: 93.9890%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.08s/it]
+Valid Loss: 0.4410, Valid Accuracy: 92.2000%
+✅ New Best Model Saved at saved/ViT_Finetune/best_finetuned_Adam_lr5e-06_epoch_4.pth (Accuracy: 92.2000%)
+
+🚀 Fine-Tuning EPOCH 5/100 | LR: 5e-06, Optimizer: Adam
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.12s/it]
+Train Loss: 0.3391, Train Accuracy: 95.2564%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.25s/it]
+Valid Loss: 0.3832, Valid Accuracy: 92.6000%
+✅ New Best Model Saved at saved/ViT_Finetune/best_finetuned_Adam_lr5e-06_epoch_5.pth (Accuracy: 92.6000%)
+
+🚀 Fine-Tuning EPOCH 6/100 | LR: 5e-06, Optimizer: Adam
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.12s/it]
+Train Loss: 0.2800, Train Accuracy: 96.5090%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.14s/it]
+Valid Loss: 0.3481, Valid Accuracy: 92.2000%
+
+🚀 Fine-Tuning EPOCH 7/100 | LR: 5e-06, Optimizer: Adam
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.12s/it]
+Train Loss: 0.2316, Train Accuracy: 97.5245%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.18s/it]
+Valid Loss: 0.3041, Valid Accuracy: 94.4000%
+✅ New Best Model Saved at saved/ViT_Finetune/best_finetuned_Adam_lr5e-06_epoch_7.pth (Accuracy: 94.4000%)
+
+🚀 Fine-Tuning EPOCH 8/100 | LR: 5e-06, Optimizer: Adam
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.13s/it]
+Train Loss: 0.1938, Train Accuracy: 98.1396%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.10s/it]
+Valid Loss: 0.2780, Valid Accuracy: 94.8000%
+✅ New Best Model Saved at saved/ViT_Finetune/best_finetuned_Adam_lr5e-06_epoch_8.pth (Accuracy: 94.8000%)
+
+🚀 Fine-Tuning EPOCH 9/100 | LR: 5e-06, Optimizer: Adam
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.11s/it]
+Train Loss: 0.1627, Train Accuracy: 98.7252%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.11s/it]
+Valid Loss: 0.2558, Valid Accuracy: 96.4000%
+✅ New Best Model Saved at saved/ViT_Finetune/best_finetuned_Adam_lr5e-06_epoch_9.pth (Accuracy: 96.4000%)
+
+🚀 Fine-Tuning EPOCH 10/100 | LR: 5e-06, Optimizer: Adam
+Training: 100%|██████████| 53/53 [00:58<00:00,  1.11s/it]
+Train Loss: 0.1373, Train Accuracy: 99.0439%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.15s/it]
+Valid Loss: 0.2376, Valid Accuracy: 96.0000%
+
+🚀 Fine-Tuning EPOCH 11/100 | LR: 5e-06, Optimizer: Adam
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.12s/it]
+Train Loss: 0.1166, Train Accuracy: 99.3033%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.14s/it]
+Valid Loss: 0.2244, Valid Accuracy: 96.2000%
+
+🚀 Fine-Tuning EPOCH 12/100 | LR: 5e-06, Optimizer: Adam
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.12s/it]
+Train Loss: 0.0994, Train Accuracy: 99.5108%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.09s/it]
+Valid Loss: 0.2139, Valid Accuracy: 95.0000%
+
+🚀 Fine-Tuning EPOCH 13/100 | LR: 5e-06, Optimizer: Adam
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.12s/it]
+Train Loss: 0.0847, Train Accuracy: 99.6665%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.10s/it]
+Valid Loss: 0.2078, Valid Accuracy: 95.2000%
+
+🚀 Fine-Tuning EPOCH 14/100 | LR: 5e-06, Optimizer: Adam
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.12s/it]
+Train Loss: 0.0739, Train Accuracy: 99.7554%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.10s/it]
+Valid Loss: 0.1959, Valid Accuracy: 96.2000%
+⏹ Early stopping triggered. No improvement in last 5 epochs.
+
+🏆 Finished Fine-Tuning for {'lr': 5e-06, 'optimizer': 'Adam', 'batch_size': 256}. Best Accuracy: 96.4000%
+
+🔍 Starting Fine-Tuning with {'lr': 3e-06, 'optimizer': 'AdamW', 'batch_size': 256}
+
+
+🚀 Fine-Tuning EPOCH 1/100 | LR: 3e-06, Optimizer: AdamW
+Training: 100%|██████████| 53/53 [00:55<00:00,  1.05s/it]
+Train Loss: 0.8855, Train Accuracy: 84.4204%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.07s/it]
+Valid Loss: 0.8221, Valid Accuracy: 84.2000%
+✅ New Best Model Saved at saved/ViT_Finetune/best_finetuned_AdamW_lr3e-06_epoch_1.pth (Accuracy: 84.2000%)
+
+🚀 Fine-Tuning EPOCH 2/100 | LR: 3e-06, Optimizer: AdamW
+Training: 100%|██████████| 53/53 [00:58<00:00,  1.10s/it]
+Train Loss: 0.7416, Train Accuracy: 87.7186%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.04s/it]
+Valid Loss: 0.7094, Valid Accuracy: 86.0000%
+✅ New Best Model Saved at saved/ViT_Finetune/best_finetuned_AdamW_lr3e-06_epoch_2.pth (Accuracy: 86.0000%)
+
+🚀 Fine-Tuning EPOCH 3/100 | LR: 3e-06, Optimizer: AdamW
+Training: 100%|██████████| 53/53 [00:58<00:00,  1.11s/it]
+Train Loss: 0.6360, Train Accuracy: 89.8014%
+Validation: 100%|██████████| 2/2 [00:01<00:00,  1.00it/s]
+Valid Loss: 0.6296, Valid Accuracy: 88.2000%
+✅ New Best Model Saved at saved/ViT_Finetune/best_finetuned_AdamW_lr3e-06_epoch_3.pth (Accuracy: 88.2000%)
+
+🚀 Fine-Tuning EPOCH 4/100 | LR: 3e-06, Optimizer: AdamW
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.13s/it]
+Train Loss: 0.5474, Train Accuracy: 91.4468%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.13s/it]
+Valid Loss: 0.5549, Valid Accuracy: 90.4000%
+✅ New Best Model Saved at saved/ViT_Finetune/best_finetuned_AdamW_lr3e-06_epoch_4.pth (Accuracy: 90.4000%)
+
+🚀 Fine-Tuning EPOCH 5/100 | LR: 3e-06, Optimizer: AdamW
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.12s/it]
+Train Loss: 0.4762, Train Accuracy: 92.9366%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.18s/it]
+Valid Loss: 0.5066, Valid Accuracy: 90.4000%
+
+🚀 Fine-Tuning EPOCH 6/100 | LR: 3e-06, Optimizer: AdamW
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.12s/it]
+Train Loss: 0.4189, Train Accuracy: 93.9297%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.06s/it]
+Valid Loss: 0.4544, Valid Accuracy: 90.8000%
+✅ New Best Model Saved at saved/ViT_Finetune/best_finetuned_AdamW_lr3e-06_epoch_6.pth (Accuracy: 90.8000%)
+
+🚀 Fine-Tuning EPOCH 7/100 | LR: 3e-06, Optimizer: AdamW
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.12s/it]
+Train Loss: 0.3682, Train Accuracy: 94.9822%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.03s/it]
+Valid Loss: 0.4185, Valid Accuracy: 91.6000%
+✅ New Best Model Saved at saved/ViT_Finetune/best_finetuned_AdamW_lr3e-06_epoch_7.pth (Accuracy: 91.6000%)
+
+🚀 Fine-Tuning EPOCH 8/100 | LR: 3e-06, Optimizer: AdamW
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.12s/it]
+Train Loss: 0.3248, Train Accuracy: 95.8123%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.06s/it]
+Valid Loss: 0.3838, Valid Accuracy: 92.8000%
+✅ New Best Model Saved at saved/ViT_Finetune/best_finetuned_AdamW_lr3e-06_epoch_8.pth (Accuracy: 92.8000%)
+
+🚀 Fine-Tuning EPOCH 9/100 | LR: 3e-06, Optimizer: AdamW
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.12s/it]
+Train Loss: 0.2878, Train Accuracy: 96.5165%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.10s/it]
+Valid Loss: 0.3596, Valid Accuracy: 93.6000%
+✅ New Best Model Saved at saved/ViT_Finetune/best_finetuned_AdamW_lr3e-06_epoch_9.pth (Accuracy: 93.6000%)
+
+🚀 Fine-Tuning EPOCH 10/100 | LR: 3e-06, Optimizer: AdamW
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.12s/it]
+Train Loss: 0.2561, Train Accuracy: 97.1020%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.04s/it]
+Valid Loss: 0.3349, Valid Accuracy: 94.2000%
+✅ New Best Model Saved at saved/ViT_Finetune/best_finetuned_AdamW_lr3e-06_epoch_10.pth (Accuracy: 94.2000%)
+
+🚀 Fine-Tuning EPOCH 11/100 | LR: 3e-06, Optimizer: AdamW
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.12s/it]
+Train Loss: 0.2274, Train Accuracy: 97.7023%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.06s/it]
+Valid Loss: 0.3138, Valid Accuracy: 93.0000%
+
+🚀 Fine-Tuning EPOCH 12/100 | LR: 3e-06, Optimizer: AdamW
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.12s/it]
+Train Loss: 0.2039, Train Accuracy: 98.1989%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.04s/it]
+Valid Loss: 0.3017, Valid Accuracy: 94.0000%
+
+🚀 Fine-Tuning EPOCH 13/100 | LR: 3e-06, Optimizer: AdamW
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.12s/it]
+Train Loss: 0.1840, Train Accuracy: 98.3694%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.08s/it]
+Valid Loss: 0.2822, Valid Accuracy: 94.6000%
+✅ New Best Model Saved at saved/ViT_Finetune/best_finetuned_AdamW_lr3e-06_epoch_13.pth (Accuracy: 94.6000%)
+
+🚀 Fine-Tuning EPOCH 14/100 | LR: 3e-06, Optimizer: AdamW
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.12s/it]
+Train Loss: 0.1652, Train Accuracy: 98.7252%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.06s/it]
+Valid Loss: 0.2693, Valid Accuracy: 95.0000%
+✅ New Best Model Saved at saved/ViT_Finetune/best_finetuned_AdamW_lr3e-06_epoch_14.pth (Accuracy: 95.0000%)
+
+🚀 Fine-Tuning EPOCH 15/100 | LR: 3e-06, Optimizer: AdamW
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.11s/it]
+Train Loss: 0.1478, Train Accuracy: 98.9698%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.13s/it]
+Valid Loss: 0.2549, Valid Accuracy: 95.8000%
+✅ New Best Model Saved at saved/ViT_Finetune/best_finetuned_AdamW_lr3e-06_epoch_15.pth (Accuracy: 95.8000%)
+
+🚀 Fine-Tuning EPOCH 16/100 | LR: 3e-06, Optimizer: AdamW
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.12s/it]
+Train Loss: 0.1336, Train Accuracy: 99.1699%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.05s/it]
+Valid Loss: 0.2463, Valid Accuracy: 95.0000%
+
+🚀 Fine-Tuning EPOCH 17/100 | LR: 3e-06, Optimizer: AdamW
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.12s/it]
+Train Loss: 0.1204, Train Accuracy: 99.3107%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.09s/it]
+Valid Loss: 0.2398, Valid Accuracy: 95.4000%
+
+🚀 Fine-Tuning EPOCH 18/100 | LR: 3e-06, Optimizer: AdamW
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.12s/it]
+Train Loss: 0.1087, Train Accuracy: 99.4664%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.06s/it]
+Valid Loss: 0.2281, Valid Accuracy: 95.8000%
+
+🚀 Fine-Tuning EPOCH 19/100 | LR: 3e-06, Optimizer: AdamW
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.12s/it]
+Train Loss: 0.0990, Train Accuracy: 99.5627%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.08s/it]
+Valid Loss: 0.2234, Valid Accuracy: 95.6000%
+
+🚀 Fine-Tuning EPOCH 20/100 | LR: 3e-06, Optimizer: AdamW
+Training: 100%|██████████| 53/53 [00:59<00:00,  1.12s/it]
+Train Loss: 0.0888, Train Accuracy: 99.6591%
+Validation: 100%|██████████| 2/2 [00:02<00:00,  1.06s/it]
+Valid Loss: 0.2147, Valid Accuracy: 95.8000%
+⏹ Early stopping triggered. No improvement in last 5 epochs.
+
+🏆 Finished Fine-Tuning for {'lr': 3e-06, 'optimizer': 'AdamW', 'batch_size': 256}. Best Accuracy: 95.8000%
