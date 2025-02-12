@@ -69,6 +69,11 @@ python inference.py
 
 ## Results
 
+### Inference results:
+![2](https://raw.githubusercontent.com/eracoding/rtml/main/code/a3/figs/Test%20Image%20Predictions.jpg)
+![1](https://raw.githubusercontent.com/eracoding/rtml/main/code/a3/figs/Images%20to%20Predict%20-%20Predictions.jpg)
+
+### Training plots:
 ![1](https://raw.githubusercontent.com/eracoding/rtml/main/code/a3/figs/acc1.png)
 ![2](https://raw.githubusercontent.com/eracoding/rtml/main/code/a3/figs/loss1.png)
 ![3](https://raw.githubusercontent.com/eracoding/rtml/main/code/a3/figs/acc2.png)
