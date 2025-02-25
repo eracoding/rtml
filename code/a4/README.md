@@ -15,12 +15,15 @@ Main Contributions:
 I have used puffer for training.
 
 MAE training
+
 ![](https://raw.githubusercontent.com/eracoding/rtml/main/code/a4/media/mae_training.png)
 
 MNIST classification training
+
 ![](https://raw.githubusercontent.com/eracoding/rtml/main/code/a4/media/mnist_training.png)
 
 Cifar-10 classification training
+
 ![](https://raw.githubusercontent.com/eracoding/rtml/main/code/a4/media/cifar10_training.png)
 
 ## **Experiment Report: MNIST and CIFAR-10 Classification using ViT**
@@ -50,21 +53,27 @@ Initially, the model was trained on MNIST with **image size = 28x28, patch size 
 ### **Results and Observations**
 
 MAE results
+
 ![](https://raw.githubusercontent.com/eracoding/rtml/main/code/a4/media/mae_results.png)
 
 MAE loss graph
+
 ![](https://raw.githubusercontent.com/eracoding/rtml/main/code/a4/media/mae_pretrain.png)
 
 MNIST accuracy graph
+
 ![](https://raw.githubusercontent.com/eracoding/rtml/main/code/a4/media/mnist_acc.png)
 
 MAE loss graph
+
 ![](https://raw.githubusercontent.com/eracoding/rtml/main/code/a4/media/mnist_loss.png)
 
 Cifar10 accuracy graph
+
 ![](https://raw.githubusercontent.com/eracoding/rtml/main/code/a4/media/cifar_acc.png)
 
 Cifar10 loss graph
+
 ![](https://raw.githubusercontent.com/eracoding/rtml/main/code/a4/media/cifar_loss.png)
 
 #### **MNIST Results**
@@ -104,6 +113,7 @@ Cifar10 loss graph
 
 ### Inference
 Cifar-10 classification inference
+
 ![](https://raw.githubusercontent.com/eracoding/rtml/main/code/a4/media/inference.png)
 
 ### Conclusion
