@@ -1,7 +1,13 @@
-# Recent trends in Machine/Deep Learning
+<!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️-->
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#recent-trends-in-machinedeep-learning)
+
+# ➤ Recent trends in Machine/Deep Learning
 Literature review and code implementations from scratch of Recent Papers in AI/ML. The topics covers computer vision detection/segmentation/recognition tasks + implementation of latest techniques and methodologies. Consider this repository as educative.
 
-# Table Of Contents
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+
+# ➤ Table Of Contents
 | ### | Paper Review & Analysis|
 |---|-------------------|
 |1.| [Alexnet, GoogleNet (Inception), Resnet](https://github.com/eracoding/rtml/tree/main/papers/01%20Image%20classiciation%20-%20Alexnet%2C%20GoogleNet%2C%20Resnet) |
@@ -17,5 +23,8 @@ Literature review and code implementations from scratch of Recent Papers in AI/M
 |2. |<a href="https://github.com/eracoding/rtml/tree/main/code/a2">Assignment 2: Yolov3-v4</a>|
 |3. |<a href="https://github.com/eracoding/rtml/tree/main/code/a3">Assignment 3: Vision Transformer</a>|
 
-# Credits
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#credits)
+
+# ➤ Credits
 The course and assignments are credited by professor Chaklam [repo](https://github.com/chaklam-silpasuwanchai/Python-for-Deep-Learning)
